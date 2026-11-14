@@ -6,7 +6,9 @@
   "description": "A Varanasi tourism blog with an admin publishing dashboard",
   "scripts": {
     "build": "node scripts/build.mjs",
-    "test": "node scripts/build.mjs && node tests/test.mjs && node tests/login-test.mjs"
+    "test": "node scripts/build.mjs && node tests/test.mjs && node tests/login-test.mjs && node tests/production-test.mjs"
   },
-  "engines": { "node": ">=22" }
+  "engines": {
+    "node": ">=22"
+  }
 }
